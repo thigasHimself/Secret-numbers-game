@@ -1,5 +1,5 @@
 let blacklist = [];
-let limit = 100;
+let limit = 50;
 let secretNumber=generateRandomNumber();
 let attempts = 1;
 
