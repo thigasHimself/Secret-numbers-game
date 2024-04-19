@@ -1,8 +1,7 @@
 let blacklist = [];
-let limit = 50;
+let limit = 10;
 let secretNumber=generateRandomNumber();
 let attempts = 1;
-
 
 function exhibitText(tag,text) {
     let campo = document.querySelector(tag);
@@ -63,7 +62,7 @@ function newGame(){
 
 function exhibitInitMessage() {
     exhibitText('h1',`Secret Numbers Game`);
-    exhibitText('p',`Choose a number between 1 and 10`);
+    exhibitText('p',`Choose a number between 1 and ${limit}`);
 }
 
 //EXERCISES------------------------------------
